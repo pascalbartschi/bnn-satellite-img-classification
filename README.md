@@ -12,9 +12,9 @@ This project implements a **Bayesian Neural Network (BNN)** using **SWAG (Stocha
 
 ### Calibration
 - Evaluates calibration using the **Expected Calibration Error (ECE)**:
-  ```math
-  \text{ECE} = \sum_{m=1}^{M} \frac{|B_m|}{n} \left| \text{acc}(B_m) - \text{conf}(B_m) \right|
-  ```
+```math
+ECE = \sum_{m=1}^{M} \frac{|B_m|}{n} \left| acc(B_m) - conf(B_m) \right|
+```
   where:
   - $`B_m`$ is the set of predictions in bin $`m`$,
   - $`\text{acc}(B_m)`$ is the empirical accuracy in bin $`m`$,
