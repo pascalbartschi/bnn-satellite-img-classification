@@ -36,6 +36,8 @@ This project implements a **Bayesian Neural Network (BNN)** using **SWAG (Stocha
 - **Validation**: Includes well-defined and ambiguous samples for calibration.
 - **Test**: Contains ambiguous or unseen combinations of land usage.
 
+![example-img](example_img.png)
+
 ## Results
 - Bayesian Model Averaging (BMA) provides robust predictions:
   ```math
